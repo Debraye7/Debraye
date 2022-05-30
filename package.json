@@ -1,8 +1,8 @@
 {
   "name": "debraye",
-  "description": "Portafolio profesional",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Portafolio web",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/",
     "start": "node src/"
@@ -12,25 +12,20 @@
     "url": "git+https://github.com/Debraye7/Debraye.git"
   },
   "keywords": [
-    "Portafolio",
-    "Desarrollo",
-    "Web",
-    "Programacion",
-    "Ingenieria",
-    "Sistemas",
-    "Computacionales"
+    "portaflio",
+    "web"
   ],
   "author": "Bryan Flores",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Debraye7/Debraye/issues"
   },
   "homepage": "https://github.com/Debraye7/Debraye#readme",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.2"
+    "express": "^4.18.1",
+    "node": "^17.7.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
