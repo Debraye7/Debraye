@@ -75,6 +75,7 @@ const Project = styled.div`
     height: 100%;
     &:hover > img {
         filter: blur(0px);
+        opacity: 1;
     };
     &:hover > div {
         opacity: 0;
@@ -82,8 +83,6 @@ const Project = styled.div`
     @media screen and (min-width: 600px) {
         display: flex;
         align-items: center;
-        border: none;
-        border-bottom: .1rem solid #fff;
         &:hover > div {
             opacity: 1;
         };
@@ -99,8 +98,8 @@ const Img = styled.img`
     @media screen and (min-width: 600px) {
         flex-grow: 1;
         object-fit: cover;
-        width: 30%;
-        filter: blur(0px);
+        width: 40%;
+        opacity: .5;
     };
 `;
 const Info = styled.div`
@@ -112,7 +111,7 @@ const Info = styled.div`
     justify-content: space-around;
     width: 100%;
     padding: 1.5rem;
-    background-color: #000c;
+    background-color: #000b;
     opacity: 1;
     z-index: 4000;
     @media screen and (min-width: 600px) {
@@ -134,6 +133,7 @@ const Desc = styled.p`
     @media screen and (min-width: 600px) {
         font-size: 1.75rem;
         padding: 0 .2rem;
+        color: #ddd;
     };
 `;
 const List = styled.div`
@@ -143,7 +143,7 @@ const List = styled.div`
     width: 100%;
     height: 50%;
     @media screen and (min-width: 600px) {
-        height: 60%;
+        flex-direction: row;
     };
 `;
 const Item = styled.p`
@@ -153,9 +153,10 @@ const Item = styled.p`
     font-weight: 200;
     letter-spacing: .15em;
     color: #fff;
-    padding: .5rem;
+    padding: .5rem .75rem;
     @media screen and (min-width: 600px) {
         font-size: 1.25rem;
+        color: #ddd;
     };
 `;
 

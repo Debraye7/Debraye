@@ -21,16 +21,19 @@ const Circle = styled.div`
     justify-content: center;
     border: .25rem solid #fff;
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
     padding: 1.25rem;
+    &:hover{
+        background-color: #ff02;
+    };
 `;
 const Logo = styled.img`
     object-fit: cover;
 `;
 const Line = styled.div`
     width: .25rem;
-    height: 4rem;
+    height: 3.5rem;
     background-color: #fff;
 `;
 const Info = styled.div`
@@ -38,11 +41,14 @@ const Info = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-top: .25rem solid #fff;
-    border-bottom: .25rem solid #fff;
+    border: .25rem solid #fff;
+    border-radius: 1rem;
     width: 80vw;
-    height: 20rem;
+    height: 18rem;
     padding: 2rem 0;
+    &:hover{
+        background-color: #ff02;
+    };
 `;
 const Name = styled.h2`
     text-align: center;
@@ -66,11 +72,10 @@ const Nav = styled.nav`
     border-radius: .5rem;
     @media screen and (min-width: 550px) {
         flex-direction: row;
-        width: 70vw;
+        width: 75vw;
     };
 `;
 const Container = styled.div`
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,14 +85,14 @@ const Container = styled.div`
     cursor: pointer;
     transition: all 0.5s ease;
     &:hover{
-        background-color: #fff2;
+        background-color: #ff02;
     };
     @media screen and (min-width: 550px) {
         border-top: none;
         border-bottom: none;
         border-right: ${props=>props.right ? '.25rem solid #fff' : 'none'};
         border-left: ${props=>props.left ? '.25rem solid #fff' : 'none'};
-        height: 6.5rem;
+        height: 6rem;
     };
 `;
 const Text = styled.p`
