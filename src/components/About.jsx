@@ -102,7 +102,7 @@ const About = () => {
                     Conocimientos en Html, Css, Javascript, React, Node.js, SQL, Mongodb y Bootstrap.
                 </Paragraph>
                 <Cv>
-                    <Img src='./img/cv.jpg'/>
+                    <Img src='./img/cv.png'/>
                 </Cv>
             </Bottom>
         </Container>
