@@ -99,7 +99,7 @@ const About = () => {
                     Estudiante en sistemas computacionales, interesado en desarrollarse como fullstack, apasionado por crear aplicaciones web que logren una buena experiencia para el usuario.
                     <br/>
                     <br/>
-                    Conocimientos en HTML, CSS, Javascript, React, Node.js, SQL Y MongoDB.
+                    Conocimientos en HTML, CSS, Javascript, React, Node.js, SQL y MongoDB.
                 </Paragraph>
                 <Cv>
                     <Img src='./img/cv.png'/>
