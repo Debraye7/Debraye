@@ -96,10 +96,10 @@ const About = () => {
             </Top>
             <Bottom>
                 <Paragraph>
-                    Estudiante de ingeniería en sistemas computacionales, especialista en desarrollo web.
+                    Estudiante en sistemas computacionales, interesado en desarrollarse como fullstack, apasionado por crear aplicaciones web que logren una buena experiencia para el usuario.
                     <br/>
                     <br/>
-                    Conocimientos en Html, Css, Javascript, React, Node.js, SQL, Mongodb y Bootstrap.
+                    Conocimientos en HTML, CSS, Javascript, React, Node.js, SQL Y MongoDB.
                 </Paragraph>
                 <Cv>
                     <Img src='./img/cv.png'/>
